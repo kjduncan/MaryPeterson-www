@@ -1541,12 +1541,13 @@ blockquote p {
     display: inherit !important;
   }
 }
-body {
-  background-color: blue;
-  height: 200px;
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: #efefef;
 }
 
-header {
+footer {
   display: inline-block;
   width: 100%;
   background-color: #efefef;
