@@ -1545,3 +1545,9 @@ body {
   background-color: blue;
   height: 200px;
 }
+
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: #efefef;
+}
