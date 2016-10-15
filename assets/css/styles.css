@@ -1547,8 +1547,23 @@ header {
   background-color: #efefef;
 }
 
+span.icon, a.icon {
+  display: inline-block;
+}
+
+div.icon {
+  display: block;
+}
+
 footer {
   display: inline-block;
   width: 100%;
   background-color: #efefef;
+}
+
+.social {
+  float: right;
+}
+.social li {
+  display: inline-block;
 }
