@@ -1,0 +1,72 @@
+.email_icon {
+	background: url("svg/sprite.view.svg") 0 77.10843373493977% no-repeat;
+}
+
+.email_icon {
+	width: 38px;
+	height: 38px;
+}
+
+.facebook_icon {
+	background: url("svg/sprite.view.svg") 20.32085561497326% 77.10843373493977% no-repeat;
+}
+
+.facebook_icon {
+	width: 38px;
+	height: 38px;
+}
+
+.header_logo {
+	background: url("svg/sprite.view.svg") 0 0 no-repeat;
+}
+
+.header_logo {
+	width: 160px;
+	height: 128px;
+}
+
+.icon_footer {
+	background: url("svg/sprite.view.svg") 40.64171122994652% 74.85380116959064% no-repeat;
+}
+
+.icon_footer {
+	width: 38px;
+	height: 33px;
+}
+
+.icon_home_welcome {
+	background: url("svg/sprite.view.svg") 100% 0 no-repeat;
+}
+
+.icon_home_welcome {
+	width: 65px;
+	height: 56px;
+}
+
+.icon_home_welcome_white {
+	background: url("svg/sprite.view.svg") 100% 37.83783783783784% no-repeat;
+}
+
+.icon_home_welcome_white {
+	width: 65px;
+	height: 56px;
+}
+
+.instagram_icon {
+	background: url("svg/sprite.view.svg") 0 100% no-repeat;
+}
+
+.instagram_icon {
+	width: 38px;
+	height: 38px;
+}
+
+.pinterest_icon {
+	background: url("svg/sprite.view.svg") 20.32085561497326% 100% no-repeat;
+}
+
+.pinterest_icon {
+	width: 38px;
+	height: 38px;
+}
+

@@ -1,0 +1,57 @@
+
+.no-svg .email_icon {
+  background-image: url(icons.png);
+  background-position: 0px 0px;
+  width: 36px;
+  height: 36px;
+}
+
+.no-svg .facebook_icon {
+  background-image: url(icons.png);
+  background-position: -36px 0px;
+  width: 36px;
+  height: 36px;
+}
+
+.no-svg .header_logo {
+  background-image: url(icons.png);
+  background-position: -72px 0px;
+  width: 158px;
+  height: 126px;
+}
+
+.no-svg .icon_footer {
+  background-image: url(icons.png);
+  background-position: -230px 0px;
+  width: 36px;
+  height: 31px;
+}
+
+.no-svg .icon_home_welcome {
+  background-image: url(icons.png);
+  background-position: -266px 0px;
+  width: 63px;
+  height: 54px;
+}
+
+.no-svg .icon_home_welcome_white {
+  background-image: url(icons.png);
+  background-position: -329px 0px;
+  width: 63px;
+  height: 54px;
+}
+
+.no-svg .instagram_icon {
+  background-image: url(icons.png);
+  background-position: -230px -54px;
+  width: 36px;
+  height: 36px;
+}
+
+.no-svg .pinterest_icon {
+  background-image: url(icons.png);
+  background-position: -266px -54px;
+  width: 36px;
+  height: 36px;
+}
+
