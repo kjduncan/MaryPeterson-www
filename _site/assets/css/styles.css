@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css?family=Lora");
 /*
  * Pivotl borrows heavily from the Foundation grid, with Sass modifications.
  * Altered by @seanevd
@@ -1581,8 +1579,8 @@ a:hover {
   border-bottom: thin solid #000000;
 }
 a:active {
-  color: #c9c4be;
-  border-bottom: thin solid #c9c4be;
+  color: #404040;
+  border-bottom: thin solid #404040;
   -webkit-transition-duration: 0s;
           transition-duration: 0s;
 }

@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Lora');
-
 @charset "utf-8";
 
 @import "./lib/pivotl";
@@ -8,6 +5,7 @@
 // Colors
 //
 $black: #000000;
+$light-black: lighten($black, 25%);
 $red: #A94239;
 $gray: #c9c4be;
 $text: #4f4f4f;
@@ -59,8 +57,8 @@ a {
         border-bottom: thin solid $black;
     }
     &:active {
-        color: $gray;
-        border-bottom: thin solid $gray;
+        color: $light-black;
+        border-bottom: thin solid $light-black;
         transition-duration: 0s;
     }
     &.icon, &.img {
