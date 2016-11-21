@@ -109,9 +109,11 @@ div.icon {
 //
 
 header {
+    position: relative;
     display: inline-block;
     width: 100%;
     background-color: #efefef;
+    z-index: 2;
 }
 
 .home-header {
@@ -127,7 +129,7 @@ header {
 }
 
 .header-icon {
-    margin: 0 auto;
+    margin-bottom: 4px;
 }
 
 .nav-link {
@@ -137,10 +139,29 @@ header {
 
 .main-text {
     h1 {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 100;
         margin-bottom: 0;
+        text-transform: uppercase;
     }
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    &.active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .nav-link {
+        top: 11px;
+    }
+
 }
 
 

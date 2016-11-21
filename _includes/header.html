@@ -1,10 +1,11 @@
 <header>
-    <div class="home-header">
+
+    {% if page.header %}<div class="home-header">{% endif %}
         <div class="nav-bar">
             <div class="row">
                 <div class="small-12 columns tac">
-                    <a href="/portfolio" class="nav-link">Portfolio</a>
-                    <a href="/" class="dib img">
+                    {% if page.header %}<a href="/portfolio" class="nav-link">Portfolio</a>{% endif %}
+                    <a href="/" class="dib img header-icon">
                         <div class="header_logo icon"></div>
                     </a>
                     <div class="main-text">
@@ -12,6 +13,16 @@
                     </div>
 
                 </div>
+            </div>
+        </div>
+    {% if page.header %}</div>{% endif %}
+    <div class="sticky-nav nav-bar">
+        <div class="row">
+            <div class="small-12 columns">
+                <a href="/" class="dib img header-icon">
+                    <div class="icon_footer icon"></div>
+                </a>
+                {% if page.header %}<a href="/portfolio" class="nav-link">Portfolio</a>{% endif %}
             </div>
         </div>
     </div>

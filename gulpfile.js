@@ -98,7 +98,7 @@ gulp.task('files', function() {
 });
 
 gulp.task('js', function() {
-    return gulp.src(['_assets/_js/jquery-1.11.3.min.js', '_assets/_js/**/*.js'])
+    return gulp.src('_assets/_js/**/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(sourcemaps.init())
@@ -111,5 +111,5 @@ gulp.task('js', function() {
 
 
 
-gulp.task('default', ['files', 'serve', 'jekyll']);
+gulp.task('default', ['styles', 'js', 'files', 'serve', 'jekyll']);
 gulp.task('sprites', ['svgsprite', 'svgfallback', 'images']);
