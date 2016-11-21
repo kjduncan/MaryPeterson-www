@@ -2,6 +2,8 @@
 
 @import "./lib/pivotl";
 
+$gray: #c9c4be;
+
 body {
 
 }
@@ -9,7 +11,7 @@ body {
 header {
     display: inline-block;
     width: 100%;
-    background-color: #c9c4be;
+    background-color: $gray;
 }
 
 // Icons
@@ -29,7 +31,7 @@ div.icon {
 footer {
     display: inline-block;
     width: 100%;
-    background-color: #c9c4be;
+    background-color: $gray;
     padding: 24px 0;
     ul {
       margin:0;
