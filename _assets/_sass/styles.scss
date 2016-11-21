@@ -10,22 +10,41 @@
 $black: #000000;
 $red: #A94239;
 $gray: #c9c4be;
+$text: #4f4f4f;
+$blue: #c2d7ce;
 
 
 body {
 
   .portfolio {
+    font-family: 'Raleway', sans-serif;
     h1 {
-      font-family: 'Raleway', sans-serif;
-      font-size: 64px;
+
+      font-size: 80px;
 
     }
     .title {
       display: inline-block;
-      border-bottom: 3px solid #000;
-      font-weight: bold;
+      border-bottom: 6px solid #000;
+      font-weight: 800;
 
 
+    }
+    .digital {
+      color: $blue;
+    }
+    .print {
+      color: $gray;
+    }
+    .logo {
+      color: $red;
+    }
+    ul {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        font-size: 24px;
+      }
     }
   }
 
