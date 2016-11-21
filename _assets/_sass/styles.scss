@@ -6,6 +6,8 @@
 //
 $black: #000000;
 $red: #A94239;
+$gray: #c9c4be;
+
 
 body {
 
@@ -22,6 +24,12 @@ a {
 
     }
 }
+//
+// header {
+//     display: inline-block;
+//     width: 100%;
+//     background-color: $gray;
+// }
 
 // Icons
 //
@@ -83,7 +91,11 @@ header {
 footer {
     display: inline-block;
     width: 100%;
-    background-color: #efefef;
+    background-color: $gray;
+    padding: 24px 0;
+    ul {
+      margin:0;
+    }
 }
 .social {
     float: right;

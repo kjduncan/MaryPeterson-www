@@ -1597,7 +1597,11 @@ header {
 footer {
   display: inline-block;
   width: 100%;
-  background-color: #efefef;
+  background-color: #c9c4be;
+  padding: 24px 0;
+}
+footer ul {
+  margin: 0;
 }
 
 .social {
