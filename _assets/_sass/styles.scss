@@ -14,6 +14,22 @@ $gray: #c9c4be;
 
 body {
 
+  .portfolio {
+    h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 64px;
+
+    }
+    .title {
+      display: inline-block;
+      border-bottom: 3px solid #000;
+      font-weight: bold;
+
+
+    }
+  }
+
+
 }
 
 a {
@@ -33,21 +49,6 @@ a {
 //     width: 100%;
 //     background-color: $gray;
 // }
-
-.portfolio {
-  h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 64px;
-
-  }
-  .title {
-    display: inline-block;
-    border-bottom: 3px solid #000;
-    font-weight: bold;
-
-
-  }
-}
 
 // Icons
 //

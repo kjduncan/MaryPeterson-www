@@ -1,64 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lora");
 /*
-Error: Invalid CSS after "    display": expected ";", was ": inline-block;"
-        on line 28 of _assets/_sass/styles.scss
-
-23:     font-size: 64px;
-24: 
-25:   }
-26:   .title {
-27:     color:
-28:     display: inline-block;
-29:     border-bottom: 3px solid #000;
-30:     font-weight: bold;
-31: 
-32: 
-33:   }
-
-Backtrace:
-_assets/_sass/styles.scss:28
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:775:in `block in try_declaration'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1155:in `call'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:1155:in `rethrow'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:780:in `try_declaration'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:709:in `declaration_or_ruleset'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:663:in `block_contents'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:278:in `render'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin.rb:82:in `update_stylesheets'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:363:in `watch_or_update'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
-/Users/Kate/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
-/Users/Kate/.rvm/gems/ruby-2.2.1/bin/sass:23:in `load'
-/Users/Kate/.rvm/gems/ruby-2.2.1/bin/sass:23:in `<main>'
-/Users/Kate/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
-/Users/Kate/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+ * Pivotl borrows heavily from the Foundation grid, with Sass modifications.
+ * Altered by @seanevd
 */
-<<<<<<< HEAD
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    display\": expected \";\", was \": inline-block;\"\A         on line 28 of _assets/_sass/styles.scss\A \A 23:     font-size: 64px;\A 24: \A 25:   }\A 26:   .title {\A 27:     color:\A 28:     display: inline-block;\A 29:     border-bottom: 3px solid #000;\A 30:     font-weight: bold;\A 31: \A 32: \A 33:   }"; }
-=======
 @import url(../images/icons/png/icons.css);
 @import url(../images/icons/svg/view/sprite.css);
 html, body {
@@ -1598,6 +1543,16 @@ blockquote p {
     display: inherit !important;
   }
 }
+body .portfolio h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 64px;
+}
+body .portfolio .title {
+  display: inline-block;
+  border-bottom: 3px solid #000;
+  font-weight: bold;
+}
+
 a {
   color: #000000;
   border-bottom: thin solid transparent;
@@ -1667,4 +1622,3 @@ footer ul {
 .social li {
   display: inline-block;
 }
->>>>>>> 38506cb3f92eb1e33d55cf31ac45e2fb42acba19
