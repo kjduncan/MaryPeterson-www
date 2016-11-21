@@ -1556,11 +1556,23 @@ body .portfolio .title {
 a {
   color: #000000;
   border-bottom: thin solid transparent;
-  -webkit-transition: border 0.2s ease-in-out;
-  transition: border 0.2s ease-in-out;
+  -webkit-transition: border 0.1s ease-in-out;
+  transition: border 0.1s ease-in-out;
 }
 a:hover {
   border-bottom: thin solid #000000;
+}
+a:active {
+  color: #c9c4be;
+  border-bottom: thin solid #c9c4be;
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
+}
+a.icon, a.img {
+  border-bottom: none;
+}
+a.icon:hover, a.img:hover {
+  border-bottom: none;
 }
 
 span.icon, a.icon {

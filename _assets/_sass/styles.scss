@@ -35,12 +35,20 @@ body {
 a {
     color: $black;
     border-bottom: thin solid transparent;
-    transition: border 0.2s ease-in-out;
+    transition: border 0.1s ease-in-out;
     &:hover {
         border-bottom: thin solid $black;
     }
     &:active {
-
+        color: $gray;
+        border-bottom: thin solid $gray;
+        transition-duration: 0s;
+    }
+    &.icon, &.img {
+        border-bottom: none;
+        &:hover {
+            border-bottom: none;
+        }
     }
 }
 //
