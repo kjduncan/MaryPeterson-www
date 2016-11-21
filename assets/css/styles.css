@@ -1704,7 +1704,9 @@ footer ul {
 
 .social {
   float: right;
+  font-size: 0;
 }
 .social li {
   display: inline-block;
+  margin-left: 8px;
 }

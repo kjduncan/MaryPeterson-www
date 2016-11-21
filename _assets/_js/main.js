@@ -4,7 +4,6 @@ $(function() {
   var bottomOfNav = $(".nav-bar").outerHeight(true) + $(".nav-bar").position().top;
   $(window).scroll(function() {
     var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(scrollPos);
     if (scrollPos > bottomOfNav) {
       $(".sticky-nav").addClass("active");
     } else {
