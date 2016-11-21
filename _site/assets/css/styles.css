@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,400");
 /*
  * Pivotl borrows heavily from the Foundation grid, with Sass modifications.
  * Altered by @seanevd
@@ -1541,6 +1543,10 @@ blockquote p {
     display: inherit !important;
   }
 }
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 body .portfolio {
   font-family: 'Raleway', sans-serif;
 }
@@ -1632,6 +1638,12 @@ header {
 .nav-link {
   position: absolute;
   right: 16px;
+}
+
+.main-text h1 {
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 0;
 }
 
 footer {
