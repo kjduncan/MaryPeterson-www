@@ -1550,6 +1550,9 @@ body {
 body .portfolio {
   font-family: 'Raleway', sans-serif;
 }
+body .portfolio .dib {
+  display: inline-block;
+}
 body .portfolio h1 {
   font-weight: 800px;
   font-size: 80px;
