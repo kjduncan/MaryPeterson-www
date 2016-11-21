@@ -9,7 +9,7 @@ body {
 header {
     display: inline-block;
     width: 100%;
-    background-color: #efefef;
+    background-color: #c9c4be;
 }
 
 // Icons
@@ -29,7 +29,11 @@ div.icon {
 footer {
     display: inline-block;
     width: 100%;
-    background-color: #efefef;
+    background-color: #c9c4be;
+    padding: 24px 0;
+    ul {
+      margin:0;
+    }
 }
 .social {
     float: right;
