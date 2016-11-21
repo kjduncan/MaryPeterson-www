@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400');
 
 @charset "utf-8";
 
@@ -14,6 +14,9 @@ $gray: #c9c4be;
 $text: #4f4f4f;
 $blue: #c2d7ce;
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
 
 body {
 
@@ -162,6 +165,14 @@ header {
 .nav-link {
     position: absolute;
     right: 16px;
+}
+
+.main-text {
+    h1 {
+        font-size: 22px;
+        font-weight: 100;
+        margin-bottom: 0;
+    }
 }
 
 
