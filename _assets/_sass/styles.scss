@@ -2,14 +2,25 @@
 
 @import "./lib/pivotl";
 
+// Colors
+//
+$black: #000000;
+$red: #A94239;
+
 body {
 
 }
 
-header {
-    display: inline-block;
-    width: 100%;
-    background-color: #efefef;
+a {
+    color: $black;
+    border-bottom: thin solid transparent;
+    transition: border 0.2s ease-in-out;
+    &:hover {
+        border-bottom: thin solid $black;
+    }
+    &:active {
+
+    }
 }
 
 // Icons
@@ -23,6 +34,49 @@ span.icon, a.icon {
 div.icon {
     display: block;
 }
+
+
+// Utilities
+//
+.dib {
+    display: inline-block;
+}
+
+.tac {
+    text-align: center;
+}
+
+
+// Header
+//
+
+header {
+    display: inline-block;
+    width: 100%;
+    background-color: #efefef;
+}
+
+.home-header {
+    width: 100%;
+    padding: 200px 0 120px 0;
+    background-image: url(../images/images/header_background.png);
+    background-size: cover;
+}
+
+.nav-bar {
+    padding: 32px 0;
+    background-color: $red;
+}
+
+.header-icon {
+    margin: 0 auto;
+}
+
+.nav-link {
+    position: absolute;
+    right: 16px;
+}
+
 
 // Footer
 //

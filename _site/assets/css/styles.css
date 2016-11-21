@@ -1541,10 +1541,14 @@ blockquote p {
     display: inherit !important;
   }
 }
-header {
-  display: inline-block;
-  width: 100%;
-  background-color: #efefef;
+a {
+  color: #000000;
+  border-bottom: thin solid transparent;
+  -webkit-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+a:hover {
+  border-bottom: thin solid #000000;
 }
 
 span.icon, a.icon {
@@ -1553,6 +1557,41 @@ span.icon, a.icon {
 
 div.icon {
   display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.tac {
+  text-align: center;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: #efefef;
+}
+
+.home-header {
+  width: 100%;
+  padding: 200px 0 120px 0;
+  background-image: url(../images/images/header_background.png);
+  background-size: cover;
+}
+
+.nav-bar {
+  padding: 32px 0;
+  background-color: #A94239;
+}
+
+.header-icon {
+  margin: 0 auto;
+}
+
+.nav-link {
+  position: absolute;
+  right: 16px;
 }
 
 footer {
