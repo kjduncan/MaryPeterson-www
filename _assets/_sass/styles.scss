@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,400');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,900');
 
 @charset "utf-8";
 
@@ -147,6 +147,7 @@ header {
     position: relative;
     display: inline-block;
     width: 100%;
+    margin-bottom: 64px;
     background-color: #efefef;
     z-index: 2;
 }
@@ -218,4 +219,25 @@ footer {
         display: inline-block;
         margin-left: 8px;
     }
+}
+
+
+// Home Page
+//
+.home-message {
+    padding-top: 12px;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 48px;
+    .minor-text {
+        font-size: 48px;
+        text-transform: lowercase;
+    }
+}
+
+.home-text {
+    font-size: 21px;
+    line-height: 28px;
 }
