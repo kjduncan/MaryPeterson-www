@@ -1547,62 +1547,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-body .portfolio {
-  font-family: 'Raleway', sans-serif;
-}
-body .portfolio .dib {
-  display: inline-block;
-}
-body .portfolio h1 {
-  font-weight: 800px;
-  font-size: 80px;
-}
-body .portfolio h3 {
-  font-size: 32px;
-}
-body .portfolio h4 {
-  font-size: 24px;
-}
-body .portfolio .title {
-  display: inline-block;
-  border-bottom: 6px solid #000;
-  font-weight: 800;
-}
-body .portfolio .digital {
-  color: #c2d7ce;
-}
-body .portfolio .print {
-  color: #c9c4be;
-}
-body .portfolio .logo {
-  color: #A94239;
-}
-body .portfolio ul {
-  list-style-type: none;
-  margin-top: 24px;
-}
-body .portfolio ul li {
-  line-height: 32px;
-}
-body .portfolio ul li a {
-  text-decoration: none;
-  font-size: 24px;
-}
-body .portfolio .title-wrapper {
-  background-color: white;
-  text-align: center;
-  margin-bottom: 24px;
-}
-body .portfolio .content-wrapper {
-  background-color: white;
-}
-body .portfolio .portfolio-2 {
-  background-color: #c2d7ce;
-  padding: 32px 0;
-  height: 1050px;
-  margin-bottom: 32px;
-}
-
 a {
   color: #000000;
   border-bottom: thin solid transparent;
@@ -1731,4 +1675,60 @@ footer ul {
 .home-text {
   font-size: 21px;
   line-height: 28px;
+}
+
+.portfolio {
+  font-family: 'Raleway', sans-serif;
+}
+.portfolio .dib {
+  display: inline-block;
+}
+.portfolio h1 {
+  font-weight: 800px;
+  font-size: 80px;
+}
+.portfolio h3 {
+  font-size: 32px;
+}
+.portfolio h4 {
+  font-size: 24px;
+}
+.portfolio .title {
+  display: inline-block;
+  border-bottom: 6px solid #000;
+  font-weight: 800;
+}
+.portfolio .digital {
+  color: #c2d7ce;
+}
+.portfolio .print {
+  color: #c9c4be;
+}
+.portfolio .logo {
+  color: #A94239;
+}
+.portfolio ul {
+  list-style-type: none;
+  margin-top: 24px;
+}
+.portfolio ul li {
+  line-height: 32px;
+}
+.portfolio ul li a {
+  text-decoration: none;
+  font-size: 24px;
+}
+.portfolio .title-wrapper {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.portfolio .content-wrapper {
+  background-color: white;
+}
+.portfolio .portfolio-2 {
+  background-color: #c2d7ce;
+  padding: 32px 0;
+  height: 1050px;
+  margin-bottom: 32px;
 }
