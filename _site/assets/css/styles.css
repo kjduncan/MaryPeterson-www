@@ -1602,6 +1602,23 @@ body .portfolio .portfolio-2 {
   height: 1050px;
   margin-bottom: 32px;
 }
+body .portfolio .portfolio-4 {
+  background-color: #c9c4be;
+  padding: 32px 0;
+}
+body .portfolio .portfolio-5 {
+  padding: 48px 0;
+}
+body .portfolio .portfolio-5 .print {
+  margin-top: 32px;
+}
+body .portfolio .portfolio-6 {
+  padding: 32px 0;
+  background-color: #A94239;
+}
+body .portfolio .portfolio-7 {
+  padding: 48px 0;
+}
 
 a {
   color: #000000;
