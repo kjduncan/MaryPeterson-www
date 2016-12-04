@@ -41,16 +41,23 @@
   height: 54px;
 }
 
-.no-svg .instagram_icon {
+.no-svg .icon_logo_blk {
   background-image: url(icons.png);
   background-position: -230px -54px;
+  width: 66px;
+  height: 54px;
+}
+
+.no-svg .instagram_icon {
+  background-image: url(icons.png);
+  background-position: -296px -54px;
   width: 36px;
   height: 36px;
 }
 
 .no-svg .pinterest_icon {
   background-image: url(icons.png);
-  background-position: -266px -54px;
+  background-position: -332px -54px;
   width: 36px;
   height: 36px;
 }

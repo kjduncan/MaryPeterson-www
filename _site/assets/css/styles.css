@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lora");
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,400,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,900");
 /*
  * Pivotl borrows heavily from the Foundation grid, with Sass modifications.
  * Altered by @seanevd
@@ -1545,62 +1545,7 @@ blockquote p {
 }
 body {
   font-family: 'Raleway', sans-serif;
-}
-
-body .portfolio {
-  font-family: 'Raleway', sans-serif;
-}
-body .portfolio .dib {
-  display: inline-block;
-}
-body .portfolio h1 {
-  font-weight: 800px;
-  font-size: 80px;
-}
-body .portfolio h3 {
-  font-size: 32px;
-}
-body .portfolio h4 {
-  font-size: 24px;
-}
-body .portfolio .title {
-  display: inline-block;
-  border-bottom: 6px solid #000;
-  font-weight: 800;
-}
-body .portfolio .digital {
-  color: #c2d7ce;
-}
-body .portfolio .print {
-  color: #c9c4be;
-}
-body .portfolio .logo {
-  color: #A94239;
-}
-body .portfolio ul {
-  list-style-type: none;
-  margin-top: 24px;
-}
-body .portfolio ul li {
-  line-height: 32px;
-}
-body .portfolio ul li a {
-  text-decoration: none;
-  font-size: 24px;
-}
-body .portfolio .title-wrapper {
-  background-color: white;
-  text-align: center;
-  margin-bottom: 24px;
-}
-body .portfolio .content-wrapper {
-  background-color: white;
-}
-body .portfolio .portfolio-2 {
-  background-color: #c2d7ce;
-  padding: 32px 0;
-  height: 1050px;
-  margin-bottom: 32px;
+  font-weight: 300;
 }
 
 a {
@@ -1625,6 +1570,12 @@ a.icon:hover, a.img:hover {
   border-bottom: none;
 }
 
+h5 {
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
 span.icon, a.icon {
   display: inline-block;
 }
@@ -1639,6 +1590,30 @@ div.icon {
 
 .tac {
   text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.smb8 {
+  margin-bottom: 8px !important;
+}
+
+.smb16 {
+  margin-bottom: 16px !important;
+}
+
+.smb24 {
+  margin-bottom: 24px !important;
+}
+
+.smb32 {
+  margin-bottom: 32px !important;
+}
+
+.smb48 {
+  margin-bottom: 48px !important;
 }
 
 header {
@@ -1731,4 +1706,60 @@ footer ul {
 .home-text {
   font-size: 21px;
   line-height: 28px;
+}
+
+.portfolio {
+  font-family: 'Raleway', sans-serif;
+}
+.portfolio .dib {
+  display: inline-block;
+}
+.portfolio h1 {
+  font-weight: 800px;
+  font-size: 80px;
+}
+.portfolio h3 {
+  font-size: 32px;
+}
+.portfolio h4 {
+  font-size: 24px;
+}
+.portfolio .title {
+  display: inline-block;
+  border-bottom: 6px solid #000;
+  font-weight: 800;
+}
+.portfolio .digital {
+  color: #c2d7ce;
+}
+.portfolio .print {
+  color: #c9c4be;
+}
+.portfolio .logo {
+  color: #A94239;
+}
+.portfolio ul {
+  list-style-type: none;
+  margin-top: 24px;
+}
+.portfolio ul li {
+  line-height: 32px;
+}
+.portfolio ul li a {
+  text-decoration: none;
+  font-size: 24px;
+}
+.portfolio .title-wrapper {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.portfolio .content-wrapper {
+  background-color: white;
+}
+.portfolio .portfolio-2 {
+  background-color: #c2d7ce;
+  padding: 32px 0;
+  height: 1050px;
+  margin-bottom: 32px;
 }
