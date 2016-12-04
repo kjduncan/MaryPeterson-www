@@ -1570,6 +1570,12 @@ a.icon:hover, a.img:hover {
   border-bottom: none;
 }
 
+h5 {
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
 span.icon, a.icon {
   display: inline-block;
 }
@@ -1584,6 +1590,30 @@ div.icon {
 
 .tac {
   text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.smb8 {
+  margin-bottom: 8px !important;
+}
+
+.smb16 {
+  margin-bottom: 16px !important;
+}
+
+.smb24 {
+  margin-bottom: 24px !important;
+}
+
+.smb32 {
+  margin-bottom: 32px !important;
+}
+
+.smb48 {
+  margin-bottom: 48px !important;
 }
 
 header {

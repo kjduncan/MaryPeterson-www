@@ -1,5 +1,5 @@
 .email_icon {
-	background: url("svg/sprite.view.svg") 0 77.10843373493977% no-repeat;
+	background: url("svg/sprite.view.svg") 34.21052631578947% 69.56521739130434% no-repeat;
 }
 
 .email_icon {
@@ -8,7 +8,7 @@
 }
 
 .facebook_icon {
-	background: url("svg/sprite.view.svg") 20.32085561497326% 77.10843373493977% no-repeat;
+	background: url("svg/sprite.view.svg") 54.21052631578947% 69.56521739130434% no-repeat;
 }
 
 .facebook_icon {
@@ -26,7 +26,7 @@
 }
 
 .icon_footer {
-	background: url("svg/sprite.view.svg") 40.64171122994652% 74.85380116959064% no-repeat;
+	background: url("svg/sprite.view.svg") 74.21052631578948% 67.72486772486772% no-repeat;
 }
 
 .icon_footer {
@@ -35,7 +35,7 @@
 }
 
 .icon_home_welcome {
-	background: url("svg/sprite.view.svg") 100% 0 no-repeat;
+	background: url("svg/sprite.view.svg") 98.15950920245399% 33.734939759036145% no-repeat;
 }
 
 .icon_home_welcome {
@@ -44,11 +44,20 @@
 }
 
 .icon_home_welcome_white {
-	background: url("svg/sprite.view.svg") 100% 37.83783783783784% no-repeat;
+	background: url("svg/sprite.view.svg") 0 77.10843373493977% no-repeat;
 }
 
 .icon_home_welcome_white {
 	width: 65px;
+	height: 56px;
+}
+
+.icon_logo_blk {
+	background: url("svg/sprite.view.svg") 100% 0 no-repeat;
+}
+
+.icon_logo_blk {
+	width: 68px;
 	height: 56px;
 }
 
@@ -62,7 +71,7 @@
 }
 
 .pinterest_icon {
-	background: url("svg/sprite.view.svg") 20.32085561497326% 100% no-repeat;
+	background: url("svg/sprite.view.svg") 20% 100% no-repeat;
 }
 
 .pinterest_icon {
