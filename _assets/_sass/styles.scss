@@ -79,12 +79,24 @@ body {
     .content-wrapper {
       background-color: white;
     }
+    .portfolio-1 {
+      margin-bottom: 64px;
+    }
     .portfolio-2 {
       background-color: $blue;
       padding: 32px 0;
       height: 1050px;
       margin-bottom: 32px;
 
+    }
+    .portfolio-3 {
+      padding: 48px 0;
+      .tag {
+        position: relative;
+        float: right;
+        bottom: 40px;
+        left: 16px;
+      }
     }
     .portfolio-4 {
       background-color: $gray;
@@ -103,6 +115,13 @@ body {
     .portfolio-7 {
       padding: 48px 0;
     }
+  }
+  .portfolio-footer {
+    background-image: url(../images/images/header_background.png);
+    
+    height: 160px;
+    width: 100%;
+    margin-top: 280px;
   }
 
 
