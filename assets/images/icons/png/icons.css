@@ -48,16 +48,37 @@
   height: 54px;
 }
 
-.no-svg .instagram_icon {
+.no-svg .icon_logo_gray_sm {
   background-image: url(icons.png);
   background-position: -296px -54px;
+  width: 38px;
+  height: 31px;
+}
+
+.no-svg .icon_logo_green_sm {
+  background-image: url(icons.png);
+  background-position: -334px -54px;
+  width: 38px;
+  height: 31px;
+}
+
+.no-svg .icon_logo_red_sm {
+  background-image: url(icons.png);
+  background-position: -296px -85px;
+  width: 38px;
+  height: 31px;
+}
+
+.no-svg .instagram_icon {
+  background-image: url(icons.png);
+  background-position: -334px -85px;
   width: 36px;
   height: 36px;
 }
 
 .no-svg .pinterest_icon {
   background-image: url(icons.png);
-  background-position: -332px -54px;
+  background-position: -230px -121px;
   width: 36px;
   height: 36px;
 }
