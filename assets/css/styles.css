@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lora");
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,700,900");
 /*
  * Pivotl borrows heavily from the Foundation grid, with Sass modifications.
  * Altered by @seanevd
@@ -1761,4 +1761,27 @@ footer ul {
 .home-text {
   font-size: 21px;
   line-height: 28px;
+}
+
+.body-text {
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.green-feature {
+  background-color: #c2d7ce;
+  color: #ffffff;
+  padding: 32px 0;
+}
+.green-feature p {
+  font-weight: 700;
+  text-align: center;
+}
+
+.feature-quote {
+  font-size: 35px;
+}
+
+.feature-author {
+  font-size: 24px;
 }
