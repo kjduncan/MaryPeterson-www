@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,700,900');
 
 @charset "utf-8";
 
@@ -7,6 +7,7 @@
 
 // Colors
 //
+$white: #ffffff;
 $black: #000000;
 $light-black: lighten($black, 25%);
 $red: #A94239;
@@ -306,4 +307,27 @@ footer {
 .home-text {
     font-size: 21px;
     line-height: 28px;
+}
+
+.body-text {
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.green-feature {
+    background-color: $blue;
+    color: $white;
+    padding: 32px 0;
+    p {
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+.feature-quote {
+    font-size: 35px;
+}
+
+.feature-author {
+    font-size: 24px;
 }
