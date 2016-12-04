@@ -295,10 +295,32 @@ footer {
     line-height: 26px;
 }
 
+.mary-photo {
+    min-width: 80%;
+}
+
 .green-feature {
+    position: relative;
     background-color: $blue;
     color: $white;
     padding: 32px 0;
+    z-index: 1;
+    &:before, &:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: $blue;
+        z-index: -1;
+    }
+    &:before {
+        top: 0;
+        transform: rotate(-9deg) translate(46%, -8%);
+    }
+    &:after {
+        top: 0;
+        transform: rotate(12deg) translate(-50%, 0);
+    }
     p {
         font-weight: 700;
         text-align: center;
