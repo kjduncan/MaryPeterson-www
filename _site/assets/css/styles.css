@@ -1596,11 +1596,23 @@ body .portfolio .title-wrapper {
 body .portfolio .content-wrapper {
   background-color: white;
 }
+body .portfolio .portfolio-1 {
+  margin-bottom: 64px;
+}
 body .portfolio .portfolio-2 {
   background-color: #c2d7ce;
   padding: 32px 0;
   height: 1050px;
   margin-bottom: 32px;
+}
+body .portfolio .portfolio-3 {
+  padding: 48px 0;
+}
+body .portfolio .portfolio-3 .tag {
+  position: relative;
+  float: right;
+  bottom: 40px;
+  left: 16px;
 }
 body .portfolio .portfolio-4 {
   background-color: #c9c4be;
@@ -1618,6 +1630,12 @@ body .portfolio .portfolio-6 {
 }
 body .portfolio .portfolio-7 {
   padding: 48px 0;
+}
+body .portfolio-footer {
+  background-image: url(../images/images/header_background.png);
+  height: 160px;
+  width: 100%;
+  margin-top: 280px;
 }
 
 a {
