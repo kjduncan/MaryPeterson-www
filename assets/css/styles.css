@@ -1636,6 +1636,7 @@ body .portfolio-footer {
   height: 160px;
   width: 100%;
   margin-top: 280px;
+  background-size: cover;
 }
 
 a {
