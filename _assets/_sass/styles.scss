@@ -8,6 +8,7 @@
 // Colors
 //
 $white: #ffffff;
+$light-white: darken($white, 5%);
 $black: #000000;
 $light-black: lighten($black, 25%);
 $red: #A94239;
@@ -187,8 +188,30 @@ div.icon {
     text-align: right;
 }
 
+.tal {
+    text-align: left;
+}
+
+.fl {
+    float: left;
+}
+
 .white {
     color: $white;
+    a {
+        color: $white;
+        &:hover {
+            border-bottom: thin solid $white;
+        }
+        &:active {
+            color: $light-white;
+            border-bottom: thin solid $light-white;
+        }
+    }
+}
+
+.overflow-aid {
+    overflow-x: hidden;
 }
 
  .smb8 {
@@ -348,6 +371,31 @@ footer {
     p {
         font-weight: 700;
         text-align: center;
+    }
+    &.contact {
+        &:before, &:after {
+
+        }
+        &:before {
+            width: 26.2%;
+            right: 0;
+            transform-origin: right top;
+            transform: rotate(20.8deg) translate(0, 0);
+        }
+        &:after {
+            width: 76%;
+            left: 0;
+            transform-origin: left top;
+            transform: rotate(-7deg) translate(0, 0);
+        }
+        p {
+            text-align: left;
+            line-height: 20px;
+        }
+        .icon_home_welcome_white {
+            margin-top: 3px;
+            margin-right: 16px;
+        }
     }
 }
 
