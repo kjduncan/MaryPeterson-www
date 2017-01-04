@@ -1687,6 +1687,10 @@ div.icon {
   text-align: right;
 }
 
+.white {
+  color: #ffffff;
+}
+
 .smb8 {
   margin-bottom: 8px !important;
 }
@@ -1844,4 +1848,46 @@ footer ul {
 
 .feature-author {
   font-size: 24px;
+}
+
+.home-image-feature {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(../images/images/what_ive_done_background_image.png);
+  background-size: cover;
+  background-position: center;
+}
+.home-image-feature h2.home-message {
+  color: #ffffff;
+  text-align: left;
+  line-height: 88px;
+}
+.home-image-feature .row {
+  position: relative;
+  height: 100%;
+}
+
+.button {
+  display: inline-block;
+  min-width: 240px;
+  max-width: 100%;
+  font-size: 21px;
+  padding: 12px 24px;
+  color: #ffffff;
+  background-color: #A94239;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .medium-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    vertical-align: bottom;
+  }
+  .medium-bottom p {
+    margin-bottom: 13px;
+  }
 }
