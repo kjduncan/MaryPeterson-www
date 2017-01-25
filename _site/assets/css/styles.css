@@ -1602,7 +1602,6 @@ body .portfolio .portfolio-1 {
 body .portfolio .portfolio-2 {
   background-color: #c2d7ce;
   padding: 32px 0;
-  height: 1050px;
   margin-bottom: 32px;
 }
 body .portfolio .portfolio-3 {
@@ -1635,7 +1634,7 @@ body .portfolio-footer {
   background-image: url(../images/images/header_background.png);
   height: 160px;
   width: 100%;
-  margin-top: 280px;
+  margin-top: 80px;
   background-size: cover;
 }
 
@@ -1863,21 +1862,24 @@ footer ul {
   font-weight: 700;
   text-align: center;
 }
+.green-feature.contact:before, .green-feature.contact:after {
+  box-shadow: 0 130px 0px #c2d7ce;
+}
 .green-feature.contact:before {
   width: 26.2%;
   right: 0;
   -webkit-transform-origin: right top;
           transform-origin: right top;
-  -webkit-transform: rotate(20.8deg) translate(0, 0);
-          transform: rotate(20.8deg) translate(0, 0);
+  -webkit-transform: rotate(15.8deg) translate(0, 0);
+          transform: rotate(15.8deg) translate(0, 0);
 }
 .green-feature.contact:after {
-  width: 76%;
+  width: 75.2%;
   left: 0;
   -webkit-transform-origin: left top;
           transform-origin: left top;
-  -webkit-transform: rotate(-7deg) translate(0, 0);
-          transform: rotate(-7deg) translate(0, 0);
+  -webkit-transform: rotate(-5.45deg) translate(0, 0);
+          transform: rotate(-5.45deg) translate(0, 0);
 }
 .green-feature.contact p {
   text-align: left;

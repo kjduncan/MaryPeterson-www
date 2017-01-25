@@ -1,14 +1,17 @@
 <footer>
     <div class="row">
         <div class="small-6 columns">
-            <a href="/home" class="icon_footer icon"></a>
+            {% if page.header %}<a href="#top" class="icon_footer icon"></a>
+            {% else %}<a href="/" class="icon_footer icon"></a>
+            {% endif %}
+
         </div>
         <div class="small-6 columns">
         <ul class="social">
-            <li><a href="#" class="email_icon icon"></a></li>
-            <li><a href="#" class="facebook_icon icon"></a></li>
-            <li><a href="#" class="instagram_icon icon"></a></li>
-            <li><a href="#" class="pinterest_icon icon"></a></li>
+            <li><a href="mailto:maryjillpeterson@gmail.com" class="email_icon icon"></a></li>
+            <li><a href="https://www.facebook.com/maryjillpeterson/" target="_blank" class="facebook_icon icon"></a></li>
+            <li><a href="https://www.instagram.com/maryjillpeterson/?hl=en" target="_blank" class="instagram_icon icon"></a></li>
+            <li><a href="https://www.pinterest.com/maryjill-peterso/" target="_blank" class="pinterest_icon icon"></a></li>
         </ul>
       </div>
     </div>

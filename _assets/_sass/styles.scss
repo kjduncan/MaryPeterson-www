@@ -86,9 +86,7 @@ body {
     .portfolio-2 {
       background-color: $blue;
       padding: 32px 0;
-      height: 1050px;
       margin-bottom: 32px;
-
     }
     .portfolio-3 {
       padding: 48px 0;
@@ -122,7 +120,7 @@ body {
 
     height: 160px;
     width: 100%;
-    margin-top: 280px;
+    margin-top: 80px;
     background-size: cover;
   }
 
@@ -374,19 +372,19 @@ footer {
     }
     &.contact {
         &:before, &:after {
-
+            box-shadow: 0 130px 0px $blue;
         }
         &:before {
             width: 26.2%;
             right: 0;
             transform-origin: right top;
-            transform: rotate(20.8deg) translate(0, 0);
+            transform: rotate(15.8deg) translate(0, 0);
         }
         &:after {
-            width: 76%;
+            width: 75.2%;
             left: 0;
             transform-origin: left top;
-            transform: rotate(-7deg) translate(0, 0);
+            transform: rotate(-5.45deg) translate(0, 0);
         }
         p {
             text-align: left;
