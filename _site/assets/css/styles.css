@@ -1760,6 +1760,35 @@ header {
 .nav-link {
   position: absolute;
   right: 16px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.nav-link:hover {
+  opacity: 1;
+}
+.nav-link:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.nav-menu {
+  position: absolute;
+  right: 16px;
+  top: 24px;
+  width: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  line-height: 25px;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.nav-menu.active {
+  width: 140px;
+  padding: 0 8px;
 }
 
 .main-text h1 {
@@ -1785,6 +1814,9 @@ header {
 }
 .sticky-nav .nav-link {
   top: 11px;
+}
+.sticky-nav .nav-menu {
+  top: 34px;
 }
 
 footer {

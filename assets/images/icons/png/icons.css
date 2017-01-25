@@ -76,6 +76,13 @@
   height: 36px;
 }
 
+.no-svg .menu-icon {
+  background-image: url(icons.png);
+  background-position: -370px -85px;
+  width: 19px;
+  height: 15px;
+}
+
 .no-svg .pinterest_icon {
   background-image: url(icons.png);
   background-position: -230px -121px;

@@ -264,6 +264,35 @@ header {
 .nav-link {
     position: absolute;
     right: 16px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    &:hover {
+        opacity: 1;
+    }
+    &:focus {
+        opacity: 1;
+        outline: none;
+    }
+}
+
+.nav-menu {
+    position: absolute;
+    right: 16px;
+    top: 24px;
+    width: 0;
+    padding: 0;
+    background-color: $black;
+    color: $white;
+    text-align: left;
+    line-height: 25px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    &.active {
+        width: 140px;
+        padding: 0 8px;
+
+    }
 }
 
 .main-text {
@@ -289,6 +318,9 @@ header {
     }
     .nav-link {
         top: 11px;
+    }
+    .nav-menu {
+        top: 34px;
     }
 
 }
