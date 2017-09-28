@@ -1926,7 +1926,30 @@ footer ul {
   border-radius: 3px;
 }
 
+@media only screen {
+  .sm-mg-bt {
+    margin-bottom: 16px;
+  }
+
+  .home-message {
+    font-size: 60px;
+  }
+
+  .green-feature.green-feature-fix:before, .green-feature.green-feature-fix:after {
+    width: 100%;
+    height: 25%;
+  }
+
+  .social li {
+    margin-left: 0;
+  }
+}
 @media only screen and (min-width: 40.063em) {
+  .home-message {
+    font-size: 90px;
+    line-height: 72px;
+  }
+
   .medium-bottom {
     position: absolute;
     right: 0;
@@ -1935,5 +1958,24 @@ footer ul {
   }
   .medium-bottom p {
     margin-bottom: 13px;
+  }
+
+  .green-feature.green-feature-fix:before, .green-feature.green-feature-fix:after {
+    width: 100%;
+    height: 30%;
+  }
+
+  .social li {
+    margin-left: 8px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  .sm-mg-bt {
+    margin-bottom: 0;
+  }
+
+  .green-feature.green-feature-fix:before, .green-feature.green-feature-fix:after {
+    width: 100%;
+    height: 100%;
   }
 }
