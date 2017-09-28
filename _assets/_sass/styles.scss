@@ -71,6 +71,9 @@ body {
     }
     .portfolio-1 {
         margin-bottom: 64px;
+        ul {
+            margin-left: 0;
+        }
     }
     .portfolio-2 {
         background-color: $blue;
@@ -83,8 +86,8 @@ body {
             position: relative;
             float: right;
             bottom: 40px;
-            left: 16px;
-            background: #fff;
+            left: 0;
+            background: rgba(255,255,255,0.7);
             padding: 2px 8px;
             border-radius: 2px;
         }
@@ -114,6 +117,18 @@ body {
     width: 100%;
     margin-top: 80px;
     background-size: cover;
+}
+
+.print-design-images {
+    .columns {
+        max-height: 306px;
+        overflow: hidden;
+    }
+    img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 
@@ -182,6 +197,10 @@ div.icon {
 
 .fl {
     float: left;
+}
+
+.oh {
+    overflow: hidden;
 }
 
 .white {
@@ -471,15 +490,20 @@ footer {
             width: 100%;
             height: 25%;
 
+            }
         }
-      }
-  }
-  .social {
-      li {
-          margin-left: 0;
-      }
-  }
+    }
+    .social {
+        li {
+            margin-left: 0;
+        }
+    }
 
+    // Utilities
+    //
+    .small-tac {
+        text-align: center;
+    }
 }
 
 // medium
@@ -529,6 +553,12 @@ footer {
         }
     }
 
+
+    // Utilities
+    //
+    .small-tac {
+        text-align: inherit;
+    }
 
 }
 

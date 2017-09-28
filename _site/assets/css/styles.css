@@ -1599,6 +1599,9 @@ body {
 .portfolio .portfolio-1 {
   margin-bottom: 64px;
 }
+.portfolio .portfolio-1 ul {
+  margin-left: 0;
+}
 .portfolio .portfolio-2 {
   background-color: #c2d7ce;
   padding: 32px 0;
@@ -1611,8 +1614,8 @@ body {
   position: relative;
   float: right;
   bottom: 40px;
-  left: 16px;
-  background: #fff;
+  left: 0;
+  background: rgba(255, 255, 255, 0.7);
   padding: 2px 8px;
   border-radius: 2px;
 }
@@ -1640,6 +1643,17 @@ body {
   width: 100%;
   margin-top: 80px;
   background-size: cover;
+}
+
+.print-design-images .columns {
+  max-height: 306px;
+  overflow: hidden;
+}
+.print-design-images img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 a {
@@ -1696,6 +1710,10 @@ div.icon {
 
 .fl {
   float: left;
+}
+
+.oh {
+  overflow: hidden;
 }
 
 .white {
@@ -1965,8 +1983,13 @@ footer ul {
 }
 
 @media only screen {
+<<<<<<< HEAD
   .smb {
     margin-bottom: 32px;
+=======
+  .sm-mg-bt {
+    margin-bottom: 40px;
+>>>>>>> 2b452aaf6227e269aff58c38623f964174cc1811
   }
 
   .home-message {
@@ -1980,6 +2003,10 @@ footer ul {
 
   .social li {
     margin-left: 0;
+  }
+
+  .small-tac {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
@@ -2016,6 +2043,10 @@ footer ul {
 
   .social li {
     margin-left: 8px;
+  }
+
+  .small-tac {
+    text-align: inherit;
   }
 }
 @media only screen and (min-width: 64.063em) {
