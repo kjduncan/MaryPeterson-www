@@ -25,9 +25,4 @@ $(function() {
     }
   });
 
-  $(".nav-link").click(function(){
-      console.log($(this));
-     $(this).next().toggleClass("active");
-  });
-
 });
