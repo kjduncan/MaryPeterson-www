@@ -97,6 +97,15 @@
 	height: 38px;
 }
 
+.menu-icon {
+	background: url("svg/sprite.view.svg") 31.40096618357488% 78.53658536585365% no-repeat;
+}
+
+.menu-icon {
+	width: 21px;
+	height: 17px;
+}
+
 .pinterest_icon {
 	background: url("svg/sprite.view.svg") 60% 100% no-repeat;
 }

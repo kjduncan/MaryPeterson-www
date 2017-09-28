@@ -20,114 +20,102 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-body {
 
-  .portfolio {
+.portfolio {
     font-family: 'Raleway', sans-serif;
     .dib {
-      display: inline-block;
-    }
-    .img-cover {
-      img {
-
-      }
-
-
+        display: inline-block;
     }
     h1 {
-      font-weight: 800px;
-      font-size: 80px;
-
+        font-weight: 800;
+        font-size: 40px;
     }
     h3 {
-      font-size: 32px;
+        font-size: 28px;
     }
     h4 {
-      font-size: 24px;
+        font-size: 22px;
     }
     .title {
-      display: inline-block;
-      border-bottom: 6px solid #000;
-      font-weight: 800;
-
-
+        display: inline-block;
+        border-bottom: 6px solid #000;
+        font-weight: 800;
     }
     .digital {
-      color: $blue;
+        color: $blue;
     }
     .print {
-      color: $gray;
+        color: $gray;
     }
     .logo {
-      color: $red;
+        color: $red;
     }
     ul {
-      list-style-type: none;
-      margin-top: 24px;
-      li {
+        list-style-type: none;
+        margin-top: 24px;
+        li {
         line-height: 32px;
-      a {
+        a {
         text-decoration: none;
         font-size: 24px;
-      }
+        }
     }
     }
     .title-wrapper {
-      background-color: white;
-      text-align: center;
-      margin-bottom: 24px;
+        background-color: white;
+        text-align: center;
+        margin-bottom: 24px;
     }
     .content-wrapper {
-      background-color: white;
+        background-color: white;
     }
     .portfolio-1 {
-      margin-bottom: 64px;
+        margin-bottom: 64px;
     }
     .portfolio-2 {
-      background-color: $blue;
-      padding: 32px 0;
-      height: 1050px;
-      margin-bottom: 32px;
-
+        background-color: $blue;
+        padding: 32px 0;
+        margin-bottom: 32px;
     }
     .portfolio-3 {
-      padding: 48px 0;
-      .tag {
-        position: relative;
-        float: right;
-        bottom: 40px;
-        left: 16px;
-      }
+        padding: 48px 0;
+        .tag {
+            position: relative;
+            float: right;
+            bottom: 40px;
+            left: 16px;
+            background: #fff;
+            padding: 2px 8px;
+            border-radius: 2px;
+        }
     }
     .portfolio-4 {
-      background-color: $gray;
-      padding: 32px 0;
+        background-color: $gray;
+        padding: 32px 0;
     }
     .portfolio-5 {
-      padding: 48px 0;
-      .print {
+        padding: 48px 0;
+        .print {
         margin-top: 32px;
-      }
+        }
     }
     .portfolio-6 {
-      padding: 32px 0;
-      background-color: $red;
+        padding: 32px 0;
+        background-color: $red;
     }
     .portfolio-7 {
-      padding: 48px 0;
+        padding: 48px 0;
     }
-  }
-  .portfolio-footer {
+    }
+    .portfolio-footer {
     background-image: url(../images/images/header_background.png);
 
     height: 160px;
     width: 100%;
-    margin-top: 280px;
+    margin-top: 80px;
     background-size: cover;
-  }
-
-
 }
+
 
 a {
     color: $black;
@@ -266,6 +254,35 @@ header {
 .nav-link {
     position: absolute;
     right: 16px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.6;
+    &:hover {
+        opacity: 1;
+    }
+    &:focus {
+        opacity: 1;
+        outline: none;
+    }
+}
+
+.nav-menu {
+    position: absolute;
+    right: 16px;
+    top: 24px;
+    width: 0;
+    padding: 0;
+    background-color: $black;
+    color: $white;
+    text-align: left;
+    line-height: 25px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    &.active {
+        width: 140px;
+        padding: 0 8px;
+
+    }
 }
 
 .main-text {
@@ -291,6 +308,9 @@ header {
     }
     .nav-link {
         top: 11px;
+    }
+    .nav-menu {
+        top: 34px;
     }
 
 }
@@ -374,19 +394,19 @@ footer {
     }
     &.contact {
         &:before, &:after {
-
+            box-shadow: 0 130px 0px $blue;
         }
         &:before {
             width: 26.2%;
             right: 0;
             transform-origin: right top;
-            transform: rotate(20.8deg) translate(0, 0);
+            transform: rotate(15.8deg) translate(0, 0);
         }
         &:after {
-            width: 76%;
+            width: 75.2%;
             left: 0;
             transform-origin: left top;
-            transform: rotate(-7deg) translate(0, 0);
+            transform: rotate(-5.45deg) translate(0, 0);
         }
         p {
             text-align: left;
@@ -468,6 +488,19 @@ footer {
       font-size: 90px;
       line-height: 72px;
     }
+    .portfolio {
+        h1 {
+            font-weight: 800px;
+            font-size: 80px;
+        }
+        h3 {
+            font-size: 32px;
+        }
+        h4 {
+            font-size: 24px;
+        }
+    }
+
     // Home Page
     //
     .medium-bottom {
