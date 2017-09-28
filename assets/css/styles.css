@@ -1645,6 +1645,7 @@ body {
 a {
   color: #000000;
   border-bottom: thin solid transparent;
+  -webkit-transition: border 0.1s ease-in-out;
   transition: border 0.1s ease-in-out;
 }
 a:hover {
@@ -1653,7 +1654,8 @@ a:hover {
 a:active {
   color: #404040;
   border-bottom: thin solid #404040;
-  transition-duration: 0s;
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
 }
 a.icon, a.img {
   border-bottom: none;
@@ -1785,6 +1787,7 @@ header {
   text-align: left;
   line-height: 25px;
   overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .nav-menu.active {
@@ -1806,6 +1809,7 @@ header {
   width: 100%;
   visibility: hidden;
   opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .sticky-nav.active {
@@ -1961,8 +1965,8 @@ footer ul {
 }
 
 @media only screen {
-  .sm-mg-bt {
-    margin-bottom: 16px;
+  .smb {
+    margin-bottom: 32px;
   }
 
   .home-message {
@@ -1979,11 +1983,11 @@ footer ul {
   }
 }
 @media only screen and (min-width: 40.063em) {
-<<<<<<< HEAD
   .home-message {
     font-size: 90px;
     line-height: 72px;
-=======
+  }
+
   .portfolio h1 {
     font-weight: 800px;
     font-size: 80px;
@@ -1993,7 +1997,6 @@ footer ul {
   }
   .portfolio h4 {
     font-size: 24px;
->>>>>>> ec7a5db9b538e6a638a5801e0a9c6d4fb0f94e4b
   }
 
   .medium-bottom {
@@ -2016,7 +2019,7 @@ footer ul {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  .sm-mg-bt {
+  .smb {
     margin-bottom: 0;
   }
 
