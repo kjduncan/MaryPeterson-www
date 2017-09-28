@@ -1979,12 +1979,8 @@ footer ul {
 }
 
 @media only screen {
-<<<<<<< HEAD
-  .small-tac {
-    text-align: center;
-=======
   .sm-mg-bt {
-    margin-bottom: 16px;
+    margin-bottom: 40px;
   }
 
   .home-message {
@@ -1998,15 +1994,18 @@ footer ul {
 
   .social li {
     margin-left: 0;
->>>>>>> 0ebe0343a4cc6fc6ee2a69bba1f747f61d7863f3
+  }
+
+  .small-tac {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 40.063em) {
-<<<<<<< HEAD
   .home-message {
     font-size: 90px;
     line-height: 72px;
-=======
+  }
+
   .portfolio h1 {
     font-weight: 800px;
     font-size: 80px;
@@ -2016,7 +2015,6 @@ footer ul {
   }
   .portfolio h4 {
     font-size: 24px;
->>>>>>> ec7a5db9b538e6a638a5801e0a9c6d4fb0f94e4b
   }
 
   .medium-bottom {
@@ -2029,10 +2027,6 @@ footer ul {
     margin-bottom: 13px;
   }
 
-<<<<<<< HEAD
-  .small-tac {
-    text-align: inherit;
-=======
   .green-feature.green-feature-fix:before, .green-feature.green-feature-fix:after {
     width: 100%;
     height: 30%;
@@ -2040,6 +2034,10 @@ footer ul {
 
   .social li {
     margin-left: 8px;
+  }
+
+  .small-tac {
+    text-align: inherit;
   }
 }
 @media only screen and (min-width: 64.063em) {
@@ -2050,6 +2048,5 @@ footer ul {
   .green-feature.green-feature-fix:before, .green-feature.green-feature-fix:after {
     width: 100%;
     height: 100%;
->>>>>>> 0ebe0343a4cc6fc6ee2a69bba1f747f61d7863f3
   }
 }
